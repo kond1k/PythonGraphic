@@ -16,6 +16,7 @@ def draw_fill_circle(x, color):
     turtle.end_fill()
 
 
+
 turtle.speed(15)
 go_to_xy(0, 0)
 turtle.circle(80)
@@ -29,6 +30,7 @@ phi = 360 / 7
 r = 50
 phi_rad = 0
 start = 0
+print("Hello")
 
 for i in range(0, 7):
     phi_rad = phi * i * math.pi / 180.0
